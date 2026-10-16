@@ -1,0 +1,86 @@
+# ============================================
+# AI-Powered Intrusion Detection System
+# .gitignore
+# ============================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env.local
+
+# Environment variables (NEVER commit this)
+.env
+*.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ML Models (large binary files)
+ml_models/
+*.joblib
+*.pkl
+*.h5
+*.keras
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Node.js (Frontend)
+node_modules/
+.next/
+dist/
+build/
+.nuxt/
+
+# Alembic
+alembic/versions/*.py
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+desktop.ini
+*.lnk
